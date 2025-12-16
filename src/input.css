@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@font-face{
+    font-family: "Poppins";
+    src: url("../public/fonts/Poppins-Regular.woff2") format("woff2");
+}
+@font-face{
+    font-family: "Inter";
+    src: url("../public/fonts/Inter-VariableFont_opsz\,wght.woff2") format("woff2");
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Inter Bold";
+    src: url("../public/fonts/Inter-VariableFont_opsz\,wght.woff2") format("woff2");
+    font-weight: 700;
+}
+@font-face{
+    font-family: "PlayfairDisplay";
+    src: url("../public/fonts/PlayfairDisplay-VariableFont_wght.woff2") format("woff2");
+    font-weight: 400;
+}
+@font-face{
+    font-family: "PlayfairDisplay Medium";
+    src: url("../public/fonts/PlayfairDisplay-VariableFont_wght.woff2") format("woff2");
+    font-weight: 500;
+}
+@font-face{
+    font-family: "PlayfairDisplaySC ";
+    src: url("../public/fonts/PlayfairDisplaySC-Regular.woff2") format("woff2");
+}
+@font-face{
+    font-family: "PlusJakartaSans";
+    src: url("../public/fonts/PlusJakartaSans-VariableFont_wght.woff2") format("woff2");
+    font-weight: 600;
+}
+@theme{
+    --color-primary-color:#6D1600; 
+    --color-secondary-color:#282A3A;
+    --color-yellow:#ffb31f;
+    --color-gray:#D9D9D9;
+    --font-Poppins:"Poppins"; 
+    --font-Inter:"Inter"; 
+    --font-Inter-Bold:"Inter Bold"; 
+    --font-PlayfairDisplay:"PlayfairDisplay"; 
+    --font-PlayfairDisplay-Medium:"PlayfairDisplay Medium"; 
+    --font-PlayfairDisplaySC:"PlayfairDisplaySC"; 
+    --font-PlusJakartaSans:"PlusJakartaSans"; 
+    --breakpoint-xs:500px;
+    --breakpoint-2xs:392px;
+
+}
+@utility container{
+    @apply mx-auto;
+
+}
+

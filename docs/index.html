@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngopi Cafe | Enjoy Your Favorite Coffee</title>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="text-secondary-color leading-relaxed">
+   <!-- Header -->
+    <header class="container">
+        <nav class="flex justify-between items-center py-6">
+            <img src="./images/Logo.jpg" alt="logo">
+            <ul class="hidden sm:flex gap-x-6 md:gap-x-14">
+                <li><a class=" font-Inter text-xl hover:text-primary-color transition-colors duration-200 ease-in" href="#products">Products</a></li>
+                <li><a class=" font-Inter text-xl hover:text-primary-color transition-colors duration-200 ease-in" href="#aboutus">About us</a></li>
+                <li><a class=" font-Inter text-xl hover:text-primary-color transition-colors duration-200 ease-in" href="#testimonial">Testimonial</a></li>
+                <li><a class=" font-Inter text-xl hover:text-primary-color transition-colors duration-200 ease-in" href="#contact">Contact</a></li>
+            </ul>
+            <div class="flex items-center gap-x-2 md:gap-x-4">
+                <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                <svg class="w-6"  viewBox="0 0 256 256" id="shopping-bag"><rect width="256" height="256" fill="none"></rect><rect width="192" height="160" x="32" y="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" rx="8"></rect>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" d="M168,88a40,40,0,0,1-80,0"></path>
+                </svg>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Hero -->
+         <section class="container py-20  relative after:content-[''] after:w-5/6 after:h-px after:bg-secondary-color after:absolute after:bottom-0 after:inset-x-0 after:mx-auto">
+            <!-- Content -->
+            <div class="text-center mb-20">
+                <h1 class="max-w-[530px] mx-auto font-PlayfairDisplay-Medium leading-tight text-5xl sm:text-[60px]">Enjoy Your Favorite Coffee with Ngopi</h1>
+                <!-- Desktop -->
+                <p class="mx-auto my-6 p-4 font-Inter text-xl/normal hidden sm:block">Discover tranquility at Ngopi a sanctuary for unwinding, <br> where your evenings are perfected with relaxation and rich flavors.</p>
+                <!-- Mobile -->
+                <p class="mx-auto my-6 p-4 font-Inter text-xl/normal sm:hidden">Discover tranquility at Ngopi a sanctuary for unwinding, where your evenings are perfected with relaxation and rich flavors.</p>
+                <button class=" mx-auto flex items-center justify-center gap-4 bg-primary-color text-white  w-full h-20 rounded-tr-4xl rounded-bl-4xl cursor-pointer xs:w-91">
+                    <span class=" font-PlayfairDisplaySC text-2xl">Explore product</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Images -->
+            <div class="flex gap-4 flex-wrap justify-center ">
+                <img class=" w-full h-62 grow object-cover rounded-tr-[80px] rounded-bl-[80px] xs:w-auto" src="./images/hero-1.jpg" alt="coffee">
+                <img class=" w-full h-62 grow object-cover rounded-tl-[80px] rounded-br-[80px] xs:w-auto" src="./images/hero-2.jpg" alt="coffee">
+                <img class=" w-full h-62 grow object-cover rounded-tr-[80px] rounded-bl-[80px] xs:w-auto" src="./images/hero-3.jpg" alt="coffee">
+                <img class=" w-full h-62 grow object-cover rounded-tl-[80px] rounded-br-[80px] xs:w-auto" src="./images/hero-4.jpg" alt="coffee">
+                <img class=" w-full h-62 grow object-cover rounded-tr-[80px] rounded-bl-[80px] xs:w-auto" src="./images/hero-5.jpg" alt="coffee">
+            </div>
+         </section>
+         <!-- Features -->
+         <section class="container py-20 divide-y sm:divide-y-0  xl:divide-x flex flex-wrap justify-center items-center relative after:content-[''] after:w-5/6 after:h-px after:bg-secondary-color after:absolute after:bottom-0 after:inset-x-0 after:mx-auto">
+            <!-- Feature 1 -->
+            <div  class="flex flex-col justify-center items-center content-start h-50 w-75" >
+                <div>
+                    <span class="font-Inter text-6xl">30</span>
+                    <span class="font-Inter text-6xl">+</span>
+                </div>
+                <p class="font-PlayfairDisplay text-2xl mt-3">Coffee Variant</p>
+            </div>
+               <!-- Feature 2 -->
+            <div  class="flex flex-col justify-center items-center h-50 w-75">
+                <div>
+                    <span class="font-Inter text-6xl">20</span>
+                    <span class="font-Inter text-6xl">+</span>
+                </div>
+                <p class="font-PlayfairDisplay text-2xl mt-3">Meeting room</p>
+            </div>
+               <!-- Feature 3 -->
+            <div  class="flex flex-col justify-center items-center h-50 w-75">
+                <div>
+                    <span class="font-Inter text-6xl">25</span>
+                    <span class="font-Inter text-6xl">+</span>
+                </div>
+                <p class="font-PlayfairDisplay text-2xl mt-3">Event space</p>
+            </div>
+               <!-- Feature 4 -->
+            <div  class="flex flex-col justify-center items-center h-50 w-75 ">
+                <div>
+                    <span class="font-Inter text-6xl">40</span>
+                    <span class="font-Inter text-6xl">+</span>
+                </div>
+                <p class="font-PlayfairDisplay text-2xl mt-3">Global Achievement</p>
+            </div>
+         </section>
+         <!-- Products -->
+          <section id="products" class="container py-20  relative  after:content-[''] after:w-5/6 after:h-px after:bg-secondary-color after:absolute after:bottom-0 after:inset-x-0 after:mx-auto">
+            <!-- Heading -->
+            <div class="text-center mb-20">
+                <h3 class="font-Inter text-2xl text-gray-500 mb-2">Our products</h3>
+                <h2 class="font-PlayfairDisplay text-4xl">From Top Quality Materials</h2>
+            </div>
+                <!-- Options -->
+                <div class="font-Inter text-2xl text-gray-500  max-w-141 rounded-[40px]  sm:bg-neutral-100 p-2 mx-auto mb-10 flex gap-y-3 flex-wrap sm:flex-nowrap justify-center sm:justify-start">
+                    <button class="w-47 h-16 rounded-[40px] bg-neutral-100  sm:bg-white">Latte</button>
+                    <button class="w-47 h-16">Robusta</button>
+                    <button class="w-47 h-16 ">Acabica</button>
+                </div>
+                <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
+                    <!-- product 1 -->
+                    <div class="text-gray-500 ">
+                        <div>
+                            <img class="w-full objecet-cover" src="./images/product-1.png"  alt="product">
+                        </div>
+                        <div class="py-4 px-6">
+                            <h3 class="text-secondary-color font-PlusJakartaSans text-2xl">Chocolate Latte</h3>
+                            <div class="flex gap-x-2 my-4 items-center">
+                                <svg class="text-yellow"  width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <span class="font-Inter-Bold text-xl">4.9</span>
+                                <span class="font-Inter">(360 reviews)</span>
+                            </div>
+                            <p class="font-Inter">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+                            <div class="flex justify-between items-center mt-4 ">
+                                <span class="font-Inter-Bold text-xl">$2.9</span>
+                                <button class="text-white bg-primary-color rounded-lg w-20 h-8 flex justify-center items-center cursor-pointer">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product 2 -->
+                    <div class="text-gray-500">
+                        <div>
+                            <img class="w-full object-cover" src="./images/product-2.png"  alt="product">
+                        </div>
+                        <div class="py-4 px-6">
+                            <h3 class="text-secondary-color font-PlusJakartaSans text-2xl">Mocha Latte</h3>
+                            <div class="flex gap-x-2 my-4 items-center">
+                                <svg class="text-yellow"  width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <span class="font-Inter-Bold text-xl">5.0</span>
+                                <span class="font-Inter">(180 reviews)</span>
+                            </div>
+                            <p class="font-Inter">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="font-Inter-Bold text-xl">$2.7</span>
+                                <button class="text-white bg-primary-color rounded-lg w-20 h-8 flex justify-center items-center cursor-pointer">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product 3 -->
+                    <div class="text-gray-500">
+                        <div>
+                            <img class="w-full object-cover" src="./images/product-3.png"  alt="product">
+                        </div>
+                        <div class="py-4 px-6">
+                            <h3 class="text-secondary-color font-PlusJakartaSans text-2xl">Coffee Latte</h3>
+                            <div class="flex gap-x-2 my-4 items-center">
+                                <svg class="text-yellow"  width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <span class="font-Inter-Bold text-xl">4.8</span>
+                                <span class="font-Inter">(450 reviews)</span>
+                            </div>
+                            <p class="font-Inter">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="font-Inter-Bold text-xl">$2.9</span>
+                                <button class="text-white bg-primary-color rounded-lg w-20 h-8 flex justify-center items-center cursor-pointer">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product 4 -->
+                    <div class="text-gray-500">
+                        <div>
+                            <img class="w-full object-cover" src="./images/product-4.png"  alt="product">
+                        </div>
+                        <div class="py-4 px-6">
+                            <h3 class="text-secondary-color font-PlusJakartaSans text-2xl">Hazelnut Latte</h3>
+                            <div class="flex gap-x-2 my-4 items-center">
+                                <svg class="text-yellow"  width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <span class="font-Inter-Bold text-xl">4.9</span>
+                                <span class="font-Inter">(390 reviews)</span>
+                            </div>
+                            <p class="font-Inter">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="font-Inter-Bold text-xl">$2.8</span>
+                                <button class="text-white bg-primary-color rounded-lg w-20 h-8 flex justify-center items-center cursor-pointer">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- pagination -->
+                  <div class=" flex gap-1 w-max mx-auto mt-10">
+                        <div class="bg-primary-color w-2 h-2 rounded-full"></div>
+                        <div class="bg-[#d9d9d9] w-2 h-2 rounded-full"></div>
+                        <div class="bg-[#d9d9d9] w-2 h-2 rounded-full"></div>
+                        <div class="bg-[#d9d9d9] w-2 h-2 rounded-full"></div>
+                    </div>
+          </section>
+          <!-- About us -->
+          <section id="aboutus" class="container py-20  relative after:content-[''] after:w-5/6 after:h-px after:bg-secondary-color after:absolute after:bottom-0 after:inset-x-0 after:mx-auto">
+            <!-- Heading -->
+              <div class="text-center mb-20">
+                <h3 class="font-Inter w-max mx-auto text-2xl text-gray-500 mb-2 relative after:content-[''] after:w-full after:h-0.5 after:bg-gray-500 after:absolute after:left-0 after:bottom-0.5 ">About us</h3>
+                <h2 class="font-PlayfairDisplay text-4xl">Why we are the best</h2>
+            </div>
+            <div class="grid gap-4  max-xs:grid-rows-[repeat,(3,auto)] grid-cols-1 xs:grid-cols-2 md:grid-cols-[2fr_1fr] lg:grid-cols-[2fr_1fr_1fr]">
+                <!-- Content -->
+                <div class="font-Inter text-xl col-span-1 xs:col-span-2  md:col-span-1 text-center md:text-left mx-auto md:mx-0 mb-8 md:mb-0">
+                    <div class="max-w-145"> 
+                        <a class="underline" href="#">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.</a>
+                        <p class="my-6">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc.</p>
+                        <p class="mb-6">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.</p>
+                        <button class="flex items-center justify-center gap-4 bg-primary-color text-white h-20 w-full xs:w-70 rounded-tr-4xl rounded-bl-4xl cursor-pointer mx-auto md:mx-0">
+                        <span class=" font-PlayfairDisplaySC text-2xl">Read More</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25" />
+                        </svg>
+                        </button>
+                   </div> 
+                </div>
+                <!-- Images -->
+                <img  class="object-cover w-full rounded-tr-[120px] rounded-bl-[120px] col-span-1 h-100 lg:h-88 max-xs:row-start-2 max-xs:row-end-3  lg:self-end" src="./images/about-1.jpg" alt="coffee">
+                <img class=" object-cover w-full rounded-tl-[120px] rounded-br-[120px] col-span-1 h-100 lg:h-88 max-xs:row-start-3 max-xs:row-end-4  lg:self-start md:hidden lg:block" src="./images/about-2.jpg" alt="coffee">
+            </div> 
+          </section>
+          <!-- Testimonials -->
+          <section id="testimonial" class="container py-20  relative  after:content-[''] after:w-5/6 after:h-px after:bg-secondary-color after:absolute after:bottom-0 after:inset-x-0 after:mx-auto">
+            <!-- Heading -->
+             <div class="text-center mb-20">
+                <h3 class="font-Inter text-2xl text-gray-500 mb-2">Testimonial</h3>
+                <h2 class="font-PlayfairDisplay text-4xl">What our buyers say</h2>
+            </div>
+            <div class="grid justify-items-stretch md:grid-cols-2 lg:grid-cols-3">
+                <!-- Testimonial 1 -->
+                <div class="py-6 px-10 col-span-1">
+                    <div class="flex items-center gap-x-4">
+                        <img src="./images/testimonial-1.png" alt="customer-image">
+                        <div>
+                            <p class="font-Inter-Bold text-xl text-gray-900">Michael Wong</p>
+                            <div class="flex mt-2 space-x-1">
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mt-4 font-Inter text-xl md:max-w-80">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="py-6 px-10 col-span-1">
+                    <div class="flex items-center gap-x-4">
+                        <img src="./images/testimonal-2.png" alt="customer-image">
+                        <div>
+                            <p class="font-Inter-Bold text-xl text-gray-900">Avril Song</p>
+                            <div class="flex mt-2 space-x-1">
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-gray" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mt-4 font-Inter text-xl md:max-w-80">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc.</p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="py-6 px-10 md:col-span-2 md:justify-self-center  lg:col-span-1 lg:justify-self-stretch ">
+                    <div class="flex items-center gap-x-4">
+                        <img src="./images/testimonal-3.png" alt="customer-image">
+                        <div>
+                            <p class="font-Inter-Bold text-xl text-gray-900">Jeanne Wood</p>
+                            <div class="flex mt-2 space-x-1">
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-yellow" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg class="text-gray" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mt-4 font-Inter text-xl md:max-w-80">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.</p>
+                </div>
+            </div>
+            <!-- pagination -->
+            <div class=" flex gap-1 w-max mx-auto mt-10">
+                <div class="bg-primary-color w-2 h-2 rounded-full"></div>
+                <div class="bg-[#d9d9d9] w-2 h-2 rounded-full"></div>
+                <div class="bg-[#d9d9d9] w-2 h-2 rounded-full"></div>
+                <div class="bg-[#d9d9d9] w-2 h-2 rounded-full"></div>
+            </div>
+          </section>
+          <!-- Articles -->
+          <section class="container py-20">
+            <!-- Heading -->
+             <div class="text-center mb-20">
+                <h3 class="font-Inter text-2xl text-gray-500 mb-2">Blog</h3>
+                <h2 class="font-PlayfairDisplay text-4xl">Read our articles</h2>
+             </div>
+             <!-- Article -->
+             <div class="flex gap-8 justify-center flex-wrap lg:flex-nowrap">
+                <!-- Article 1 -->
+                <article class="font-Inter p-4 border border-gray rounded-tr-[96px] rounded-bl-[40px] w-full sm:w-76 md:w-92 lg:w-full">
+                    <img class="rounded-tr-[80px] rounded-bl-[80px]" src="./images/article-1.jpg" alt="article-image">
+                    <div>
+                        <div class="flex justify-between items-center my-4">
+                            <div class="flex items-center">
+                                <svg class="text-secondary-color" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+                                <span class="text-sm ml-2">John Doe</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-icon lucide-calendar"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+                                <time class="text-sm ml-2" datetime="2024-02-23">Feb 23, 2024</time>
+                            </div>
+                        </div>
+                        <p class="mb-4 font-PlusJakartaSans text-2xl">Lorem ipsum dolor sit amet consectetur. Est tempor morbi pellentesque.</p>
+                        <a class=" flex items-center ml-auto w-max " href="#">
+                            <span >View details</span>
+                            <svg class="mx-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+                        </a>
+                    </div>
+                </article>
+                <!-- Article 2 -->
+                <article class="font-Inter p-4 border border-gray rounded-tr-[96px] rounded-bl-[40px] w-full sm:w-76 md:w-92 lg:w-full">
+                    <img class="rounded-tr-[80px] rounded-bl-[80px]" src="./images/article-2.jpg" alt="article-image">
+                    <div>
+                        <div class="flex justify-between items-center my-4">
+                            <div class="flex items-center">
+                                <svg class="text-secondary-color" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+                                <span class="text-sm ml-2">John Doe</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-icon lucide-calendar"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+                                <time class="text-sm ml-2" datetime="2024-02-23">Feb 23, 2024</time>
+                            </div>
+                        </div>
+                        <p class="mb-4 font-PlusJakartaSans text-2xl">Lorem ipsum dolor sit amet consectetur. Est tempor morbi pellentesque.</p>
+                        <a class=" flex items-center ml-auto w-max " href="#">
+                            <span >View details</span>
+                            <svg class="mx-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+                        </a>
+                    </div>
+                </article>
+                <!-- Article 3 -->
+                <article class="font-Inter p-4 border border-gray rounded-tr-[96px] rounded-bl-[40px] w-full sm:w-76 md:w-92 lg:w-full">
+                    <img class="rounded-tr-[80px] rounded-bl-[80px]" src="./images/article-3.jpg" alt="article-image">
+                    <div>
+                        <div class="flex justify-between items-center my-4">
+                            <div class="flex items-center">
+                                <svg class="text-secondary-color" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-icon lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+                                <span class="text-sm ml-2">John Doe</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-icon lucide-calendar"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+                                <time class="text-sm ml-2" datetime="2024-02-23">Feb 23, 2024</time>
+                            </div>
+                        </div>
+                        <p class="mb-4 font-PlusJakartaSans text-2xl">Lorem ipsum dolor sit amet consectetur. Est tempor morbi pellentesque.</p>
+                        <a class=" flex items-center ml-auto w-max " href="#">
+                            <span >View details</span>
+                            <svg class="mx-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+                        </a>
+                    </div>
+                </article>
+             </div> 
+            <button class="flex items-center justify-center gap-4 bg-primary-color text-white  h-20 w-full xs:w-70 rounded-tr-4xl rounded-bl-4xl cursor-pointer mx-auto mt-20">
+                <span class=" font-PlayfairDisplaySC text-2xl">Read More</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25" />
+                </svg>
+            </button>
+          </section>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="py-20  bg-secondary-color"> 
+      <div class="container text-white ">
+        <div class="flex flex-wrap sm:flex-nowrap">
+            <!-- Left Side -->
+             <div class="text-xl max-sm:w-full md:w-2/5 mb-10 sm:mb-0 text-center sm:text-left"> 
+                <div class="flex gap-6 mx-auto w-max sm:w-auto">
+                    <img src="./images/footer-logo.png" alt="logo">
+                    <h5 class="font-Inter-Bold text-5xl">Ngopi</h5>
+                </div>
+                <p class="font-Inter my-8 sm:max-w-91">Discover tranquility at Ngopi a sanctuary for unwinding, where your evenings are perfected with relaxation and rich flavors.</p>
+                <p class="font-Poppins mb-1">hello@ngopi.com</p>
+                <p class="font-Poppins">Phone : +01 23456789</p>
+            </div>
+             <!-- Right Side -->
+                <div class="max-sm:w-full md:w-3/5 flex justify-evenly gap-y-10  flex-wrap xl:flex-nowrap xl:justify-between">
+                    <!-- Menu 1 -->
+                    <div class="w-44 lg:w-62  text-center sm:text-left">
+                        <h6 class="font-PlayfairDisplay text-[28px] mb-6">Quick Links</h6>
+                        <ul class="font-Inter space-y-4">
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Testimonial</a></li>
+                        </ul>
+                    </div>
+                    <!-- Menu 2 -->
+                    <div class="w-44 lg:w-62 text-center sm:text-left">
+                        <h6 class="font-PlayfairDisplay text-[28px] mb-6">Resources</h6>
+                        <ul class="font-Inter space-y-4">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div> 
+                    <!-- Media -->
+                     <div class="text-center sm:text-left">
+                        <h6 class="font-PlayfairDisplay text-[28px] mb-6">Quick Links</h6>
+                       <div class="flex space-x-2 ">
+                           <a class="flex justify-center items-center w-12 h-12 bg-white/8" href="#">
+                            <svg class="text-gray" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                           </a>
+                           <a class="flex justify-center items-center w-12 h-12 bg-white/8" href="#">
+                            <svg class="text-gray" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter-icon lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                           </a>
+                           <a class="flex justify-center items-center w-12 h-12 bg-white/8" href="#">
+                            <svg class="text-gray" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                           </a>
+                           <a class="flex justify-center items-center w-12 h-12 bg-white/8" href="#">
+                            <svg class="text-gray" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                           </a>
+                           <a class="flex justify-center items-center w-12 h-12 bg-white/8" href="#">
+                           <svg class="text-gray" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+                           </a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Email Box -->
+            <div class="w-full lg:w-3/5 mt-10 md:mt-0 xl:-mt-10  xl:ml-auto ">
+                <h6 class="font-PlayfairDisplay text-[28px] mb-6">Subscribe</h6>
+                <form class="bg-white/8 h-20 flex items-center  font-Poppins pr-2 pl-6 rounded-2xl"  action="">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+                    <input class="size-full outline-0 placeholder:text-white/40 ml-2 xs:text-xl" type="email" placeholder="name@domain.com" name="email address">
+                    <button class="w-40 xs:w-45 xs:text-xl h-16 bg-primary-color rounded-2xl cursor-pointer" type="submit">Send</button>
+                </form>
+            </div>
+      </div>
+         
+    </footer> 
+</body>
+</html>
